@@ -59,7 +59,7 @@ setup(
     test_suite="eppy.test.test_eppy",  # TODO make test_eppy
     install_requires=[
         "munch>=2.0.2",
-        "beautifulsoup4<=4.8.0",
+        "beautifulsoup4",
         "tinynumpy>=1.2.1",
         "six>=1.10.0",
         "decorator>=4.0.10",
